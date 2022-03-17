@@ -4,13 +4,7 @@ import "fmt"
 
 func main() {
 
-	var myarr []int
-	myarr = append(myarr, 23171)
-	myarr = append(myarr, 21011)
-	myarr = append(myarr, 21123)
-	myarr = append(myarr, 21366)
-	myarr = append(myarr, 21013)
-	myarr = append(myarr, 21367)
+	var myarr = []int{23171, 21011, 21123, 21366, 21013, 21367}
 
 	result := solution(myarr)
 	fmt.Println(result)
